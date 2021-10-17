@@ -3,7 +3,7 @@ let moon = document.getElementById('moon');
 let stars = document.getElementById('stars');
 let mountainFront = document.getElementById('mountain-front');
 let mountainsBehind = document.getElementById('mountains_behind');
-var text = document.getElementById("text");
+let text = document.getElementById("text");
 let btn = document.getElementById('btn');
 let header = document.querySelector('header');
 
@@ -24,5 +24,5 @@ window.addEventListener('scroll', function(){
 })
 
 function values(num, num2){
-    return num * num2 + 'px'
+    return num * num2 + 'px';
 }
