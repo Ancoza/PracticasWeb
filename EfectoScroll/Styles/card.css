@@ -1,0 +1,62 @@
+.border {
+    height: 85%;
+    width: 85%;
+    background: transparent;
+    border-radius: 10px;
+    position: relative;
+  }
+
+.card {
+    display: flex;
+    height: 500px;
+    width: 400px;
+    background: #808080;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+img.card0 {
+    position: absolute;
+    width: 600px;
+    top: -100px;
+    left: -150px;
+    transition: 0.5s;
+  }
+
+.card {
+    display: flex;
+    background-color: #000;
+    background-image: url(/EfectoScroll/Images/AncozaB.png);
+    background-position: relative;
+    background-size: 600px;
+    background-position-x: -100px;
+    background-position-y: -50px;;
+}
+
+.card:hover {
+    background-size: 700px;
+    background-position-x: -130px;
+    background-position-y: -100px;   
+    animation-name: zoom;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    transition: 1.5s;
+    transition-delay: 0.5s;
+}
+
+@keyframes zoom {
+  0% {
+    background-size: 600px;
+
+  }
+  100%{
+    background-size: 700px;    
+
+  }
+}
